@@ -74,7 +74,7 @@ class _SecondScanPageState extends State<SecondScanPage> {
       }
     } else {
       // Handle permission denial
-      print('Camera permission denie');
+      print('Camera permission denied');
     }
   }
 
