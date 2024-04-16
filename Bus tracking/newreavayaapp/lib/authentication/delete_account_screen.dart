@@ -38,7 +38,7 @@ class _DeleteAccountScreenState extends State<DeleteAccountScreen> {
       if (res.statusCode == 200) {
         var resBody = jsonDecode(res.body);
         if (resBody['success']) {
-          Fluttertoast.showToast(msg: 'Account deleted successfull');
+          Fluttertoast.showToast(msg: 'Account deleted successfully');
 
           Future.delayed(const Duration(milliseconds: 2000), () {
             Get.offAll(() => const PreHomeScreen());
