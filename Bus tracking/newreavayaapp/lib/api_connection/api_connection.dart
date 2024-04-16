@@ -1,7 +1,7 @@
 class API {
   //static const hostConnect = 'http://192.168.91.5:8080/api_reavaya';
 
-  static const hostConnect = 'http://10.126.32.240:808/api_reavaya';
+  static const hostConnect = 'http://10.126.32.240:8080/api_reavaya';
 
   // Other API endpoints...
   static const validateEmail = '$hostConnect/user/validate_email.php';
