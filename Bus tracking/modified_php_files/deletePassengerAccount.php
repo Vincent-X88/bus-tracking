@@ -13,5 +13,5 @@ if($queryUpdateResponse){
 }else{
     echo json_encode(array("success" => false));
 }
-$connectNow->close();
+$connectNow->close()
 ?>
