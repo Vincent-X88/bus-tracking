@@ -6,7 +6,7 @@ class CurrentUser extends GetxController {
   //for managing balance
   RxInt pointsBalance = 0.obs;
 
-  final Rx<User> _currentUser = User(
+  fina Rx<User> _currentUser = User(
     0,
     '',
     '',
