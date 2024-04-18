@@ -1,4 +1,4 @@
-import 'package:get/get.dart'
+import 'package:get/get.dart';
 import 'package:reavaya_app/userPreferences/user_preferences.dart';
 import '../model/user.dart';
 
