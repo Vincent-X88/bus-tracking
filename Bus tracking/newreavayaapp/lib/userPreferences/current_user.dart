@@ -23,7 +23,7 @@ class CurrentUser extends GetxController {
   ).obs;
   User get user => _currentUser.value;
 
-  getUserInfo() async {
+  etUserInfo() async {
     User? getUserInfoFromLocalStorage = await RememberUserPrefs.readUserInfo();
     _currentUser.value = getUserInfoFromLocalStorage!;
   }
