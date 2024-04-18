@@ -35,7 +35,7 @@ class CurrentUser extends GetxController {
       DateTime.now(), DateTime.now(), '',);
   }
 
-  voi updateUserInfo() {
+  void updateUserInfo() {
     getUserInfo();
   }
 }
