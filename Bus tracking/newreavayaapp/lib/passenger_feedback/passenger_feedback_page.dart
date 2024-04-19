@@ -21,7 +21,7 @@ class FeedbackPage extends StatefulWidget {
 class _FeedbackPageState extends State<FeedbackPage> {
   final CurrentUser _rememberCurrentUser = Get.put(CurrentUser());
   int cleanlinessRating = 1;
-  in driverRating = 1;
+  int driverRating = 1;
   String comments = '';
   String buscode = 'T1';
   List<int> ratingOptions = [1, 2, 3, 4, 5];
