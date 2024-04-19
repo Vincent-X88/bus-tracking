@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 import 'package:reavaya_app/userPreferences/user_preferences.dart';
 import '../model/user.dart';
 
-clas CurrentUser extends GetxController {
+class CurrentUser extends GetxController {
   //for managing balance
   RxInt pointsBalance = 0.obs;
 
