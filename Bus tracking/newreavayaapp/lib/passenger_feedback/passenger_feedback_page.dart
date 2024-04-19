@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:fluttertoast/fluttertoast.dart';
-impor 'package:get/get.dart';
+import 'package:get/get.dart';
 
 import '../api_connection/api_connection.dart';
 import '../authentication/edit_account_screen.dart';
