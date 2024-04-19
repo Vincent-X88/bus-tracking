@@ -11,7 +11,7 @@ import '../home.dart';
 import '../userPreferences/current_user.dart';
 import 'package:reavaya_app/pre_home.dart';
 
-clas FeedbackPage extends StatefulWidget {
+class FeedbackPage extends StatefulWidget {
   const FeedbackPage({super.key});
 
   @override
