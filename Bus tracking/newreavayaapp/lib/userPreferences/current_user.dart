@@ -36,6 +36,6 @@ class CurrentUser extends GetxController {
   }
 
   void updateUserInfo() {
-    getUserInfo();
+    getUserInfo()
   }
 }
