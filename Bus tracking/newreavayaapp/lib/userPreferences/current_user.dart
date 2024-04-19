@@ -29,7 +29,7 @@ class CurrentUser extends GetxController {
   }
 
   void logout() async {
-    // Clear the current user info from SharedPreferences
+    // Clear the current user info from SharedPreference
     await RememberUserPrefs.clearUserInfo();
     _currentUser.value = User(0, '', '', '', '', 0, 0, 0, DateTime.now(), 0,
       DateTime.now(), DateTime.now(), '',);
